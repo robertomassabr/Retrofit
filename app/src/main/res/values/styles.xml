@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="MaterialDrawerTheme.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Style do container (LinearLayout) das activities-->
+    <style name="containerPrincipal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--Style do container (LinearLayout) das fragments-->
+    <style name="containerPrincipalFrag">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <!--Style da SroolView-->
+    <style name="scroll">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <!--Style do container (LinearLayout) da SroolView-->
+    <style name="containerScroll">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+
+    <!--Style de TextView item da Lista-->
+    <style name="itemListText">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:textColor">@color/colorGray</item>
+
+    </style>
+
+</resources>

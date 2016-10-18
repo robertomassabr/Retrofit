@@ -1,0 +1,9 @@
+<resources>
+    <!-- NOME DO APP -->
+    <string name="app_name">Json Consumer</string>
+
+    <string name="str_id">Id</string>
+    <string name="str_name">Name</string>
+    <string name="str_pwd">Pwd</string>
+
+</resources>
